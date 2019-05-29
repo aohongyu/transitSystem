@@ -1,14 +1,20 @@
 # transitSystem
-When checking our code, you may find some “Cannot resolve” symbols, that’s because you haven’t
+A simulated of real life transit system.
+
+## Getting Started
+When checking the code, you may find some “Cannot resolve” symbols, that’s because you haven’t
 imported the external libraries we used. The path of external libraries is: /transitSystem/libs
 
-• The first part is a simple guide to show you how to import them to IntelliJ IDEA
+This is a simple guide to show you how to import them to IntelliJ IDEA
 1. Open IntelliJ IDEA, click File -> Project Structure
 2. Click Modules -> Phase2 -> Dependencies -> small “+” button -> JARS or directories…
 3. Select two .jar files in libs (path: /transitSystem/libs), then click Open/OK.
 4. Check two external libraries, then click OK.
 
-• The second part is a list of the design patterns/features we use/add in this project.
+## Prerequisites
+This program only works with JDK 1.8
+
+## Design
 
 Observer:
 1. It is used in WeeklyPass to observe the system time that modified in adminUser, since they are
@@ -42,7 +48,7 @@ in AdminUser. Implementing different log instances in different managers will ca
 different log files, ex: "log.txt.1", "log.txt.2", etc. Therefore, we decided to use Singleton to
 implement the log.
 
-• Our design also follows all of five SOLID principles.
+• This design also follows all of five SOLID principles.
 
 1. Single responsibility principle
 All the operations involved in content change on this system are separated from three Managers.
@@ -72,3 +78,9 @@ stations.
 When we implementing TransitPass superclass, we avoid implementing top up function and all cards
 under this class are only able to record information and deduct, while all other methods are for
 visiting information, but not for change content. (also applied single responsibility principle here)
+
+## Installing
+
+You can simply run the Main function from source code on IDEs, or down the packed app file [here][1].
+
+[1]:https://github.com/aohongyu/transitSystem/releases/tag/V1.0
