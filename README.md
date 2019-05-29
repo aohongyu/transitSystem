@@ -81,6 +81,6 @@ visiting information, but not for change content. (also applied single responsib
 
 ## Installing
 
-You can simply run the Main function from source code on IDEs, or down the packed app file [here][1].
+You can simply run the Main function from source code on IDEs, or download the packed app [here][1].
 
 [1]:https://github.com/aohongyu/transitSystem/releases/tag/V1.0
