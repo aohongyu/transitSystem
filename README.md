@@ -1,6 +1,6 @@
 # transitSystem
 When checking our code, you may find some “Cannot resolve” symbols, that’s because you haven’t
-imported the external libraries we used. The path of external libraries is: /group_0144/phase2/libs
+imported the external libraries we used. The path of external libraries is: /transitSystem/libs
 
 • The first part is a simple guide to show you how to import them to IntelliJ IDEA
 1. Open IntelliJ IDEA, click File -> Project Structure
