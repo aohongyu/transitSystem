@@ -7,7 +7,7 @@ imported the external libraries we used. The path of external libraries is: /tra
 
 This is a simple guide to show you how to import them to IntelliJ IDEA
 1. Open IntelliJ IDEA, click File -> Project Structure
-2. Click Modules -> Phase2 -> Dependencies -> small “+” button -> JARS or directories…
+2. Click Modules -> Dependencies -> small “+” button -> JARS or directories…
 3. Select two .jar files in libs (path: /transitSystem/libs), then click Open/OK.
 4. Check two external libraries, then click OK.
 
